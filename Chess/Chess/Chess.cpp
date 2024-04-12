@@ -1,10 +1,19 @@
-// Chess.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
-
-int main()
+#include "SDL.h"
+using namespace std;
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+	/*
+	if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
+	{
+	cout << "SDL initialization failed. SDL Error: " << SDL_GetError();
+	}
+	else
+	{
+	cout << "SDL initialization succeeded!";
+	}
+	cin.get();
+	return 0;
+	*/
 }
 
