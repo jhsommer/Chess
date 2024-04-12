@@ -134,6 +134,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chess.cpp" />
+    <ClCompile Include="CVector2.cpp" />
+    <ClCompile Include="Poligon.cpp" />
+    <ClCompile Include="Triangles.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CVector2.h" />
+    <ClInclude Include="Poligon.h" />
+    <ClInclude Include="Triangles.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
