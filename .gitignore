@@ -1,0 +1,18 @@
+# Ignoriere Verzeichnisse
+bin/
+build/
+node_modules/
+venv/
+.idea/
+.vscode/
+__pycache__/
+.DS_Store
+
+# Ignoriere Bibliotheken und Dependencies
+*.dll
+*.exe
+*.jar
+*.class
+*.war
+*.zip
+*.tar.gz
