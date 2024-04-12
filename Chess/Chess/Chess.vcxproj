@@ -76,7 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\SDL2-devel-2.0.18-VC (1)\SDL2-2.0.18\Include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SDL2-devel-2.0.18-VC\SDL2-2.0.18\Include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -92,7 +92,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\SDL2-devel-2.0.18-VC (1)\SDL2-2.0.18\Include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\SDL2-devel-2.0.18-VC\SDL2-2.0.18\Include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
