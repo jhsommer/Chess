@@ -1,12 +1,13 @@
 #include <iostream>
 #include "SDL.h"
+#include <windows.h>
 using namespace std;
 
 #define TIC_INTERVAL 16
 
 int main(int argc, char* argv[])
 {
-	
+	//SetDllDirectory("C:\SDL2 - devel - 2.0.18 - VC\SDL2 - 2.0.18\lib\x86\SDL2.dll");
 	if (SDL_Init(SDL_INIT_VIDEO) == 0)
 	{
 		SDL_Window* window = NULL;
@@ -43,7 +44,7 @@ int main(int argc, char* argv[])
 	cout << "SDL initialization succeeded!";
 	}
 	SDL_Quit();
-	cin.get();
+	//cin.get();
 	return 0;
 	
 }

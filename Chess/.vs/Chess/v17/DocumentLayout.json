@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jhon1\\OneDrive\\Dokumente\\GitHub\\Chess\\Chess\\",
+  "WorkspaceRootPath": "D:\\Projekte\\Chess\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|C:\\Users\\jhon1\\OneDrive\\Dokumente\\GitHub\\Chess\\Chess\\Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|D:\\Projekte\\Chess\\Chess\\Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Chess.cpp",
-              "DocumentMoniker": "C:\\Users\\jhon1\\OneDrive\\Dokumente\\GitHub\\Chess\\Chess\\Chess\\Chess.cpp",
+              "DocumentMoniker": "D:\\Projekte\\Chess\\Chess\\Chess\\Chess.cpp",
               "RelativeDocumentMoniker": "Chess\\Chess.cpp",
-              "ToolTip": "C:\\Users\\jhon1\\OneDrive\\Dokumente\\GitHub\\Chess\\Chess\\Chess\\Chess.cpp",
+              "ToolTip": "D:\\Projekte\\Chess\\Chess\\Chess\\Chess.cpp",
               "RelativeToolTip": "Chess\\Chess.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T14:30:32.796Z",
               "EditorCaption": ""
