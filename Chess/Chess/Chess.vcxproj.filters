@@ -24,18 +24,12 @@
     <ClCompile Include="CVector2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Triangles.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Poligon.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CVector2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Triangles.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

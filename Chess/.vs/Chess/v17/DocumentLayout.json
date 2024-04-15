@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Projekte\\Chess\\Chess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|D:\\Projekte\\Chess\\Chess\\Chess\\Poligon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Poligon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|D:\\Projekte\\Chess\\Chess\\Chess\\Poligon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Poligon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|D:\\Projekte\\Chess\\Chess\\Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|solutionrelative:Chess\\Chess.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|D:\\Projekte\\Chess\\Chess\\Chess\\CVector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|solutionrelative:Chess\\CVector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|D:\\Projekte\\Chess\\Chess\\Chess\\CVector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C51AAA5F-F1F8-4D26-BF93-2E6D21300AA9}|Chess\\Chess.vcxproj|solutionrelative:Chess\\CVector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,23 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Chess.cpp",
               "DocumentMoniker": "D:\\Projekte\\Chess\\Chess\\Chess\\Chess.cpp",
               "RelativeDocumentMoniker": "Chess\\Chess.cpp",
               "ToolTip": "D:\\Projekte\\Chess\\Chess\\Chess\\Chess.cpp",
               "RelativeToolTip": "Chess\\Chess.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAAADAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-12T14:30:32.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Poligon.h",
+              "DocumentMoniker": "D:\\Projekte\\Chess\\Chess\\Chess\\Poligon.h",
+              "RelativeDocumentMoniker": "Chess\\Poligon.h",
+              "ToolTip": "D:\\Projekte\\Chess\\Chess\\Chess\\Poligon.h",
+              "RelativeToolTip": "Chess\\Poligon.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-14T17:11:29.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Poligon.cpp",
+              "DocumentMoniker": "D:\\Projekte\\Chess\\Chess\\Chess\\Poligon.cpp",
+              "RelativeDocumentMoniker": "Chess\\Poligon.cpp",
+              "ToolTip": "D:\\Projekte\\Chess\\Chess\\Chess\\Poligon.cpp",
+              "RelativeToolTip": "Chess\\Poligon.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-14T17:11:21.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CVector2.cpp",
+              "DocumentMoniker": "D:\\Projekte\\Chess\\Chess\\Chess\\CVector2.cpp",
+              "RelativeDocumentMoniker": "Chess\\CVector2.cpp",
+              "ToolTip": "D:\\Projekte\\Chess\\Chess\\Chess\\CVector2.cpp",
+              "RelativeToolTip": "Chess\\CVector2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-14T17:11:26.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CVector2.h",
+              "DocumentMoniker": "D:\\Projekte\\Chess\\Chess\\Chess\\CVector2.h",
+              "RelativeDocumentMoniker": "Chess\\CVector2.h",
+              "ToolTip": "D:\\Projekte\\Chess\\Chess\\Chess\\CVector2.h",
+              "RelativeToolTip": "Chess\\CVector2.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-14T17:11:58.079Z",
               "EditorCaption": ""
             }
           ]
