@@ -6,13 +6,12 @@
 class Poligon
 {
 	public:
-		Poligon(const std::vector<CVector2>& _points, const float& _color);
-		void Update();
-		void RenderLine(SDL_Renderer& _ren) const;
-		void RenderArea(SDL_Renderer* _ren) const;
+		Poligon(const std::vector<CVector2>& _points, const int& _color);
+		void RenderLine(SDL_Renderer* _ren) const;
+		void RenderRect(SDL_Renderer* _ren) const;
 
 	private:
 		std::vector<CVector2> m_Points;
-		float m_Color;
+		int m_Color;
 };
 

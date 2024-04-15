@@ -12,8 +12,7 @@ int main(int argc, char* argv[])
 		SDL_Window* window = NULL;
 		SDL_Renderer* renderer = NULL;
 
-		Poligon Test({ {0,0},{800,0},{400,800} }, 0.5);
-
+		Poligon Test({ {200,200},{200,400},{400,400},{400,200} }, 255);
 
 		if (SDL_CreateWindowAndRenderer(800, 800, 0, &window, &renderer) == 0) {
 			SDL_bool done = SDL_FALSE;
@@ -21,17 +20,13 @@ int main(int argc, char* argv[])
 			while (!done) {
 				SDL_Event event;
 				
-				
-				SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE);
-
-				
-
+				SDL_SetRenderDrawColor(renderer, 100, 100, 100, SDL_ALPHA_OPAQUE);
 				SDL_RenderClear(renderer);
+				
+				Test.RenderRect(renderer);
+				//Test.RenderLine(renderer);
+
 				SDL_RenderPresent(renderer);
-
-				Test.RenderArea(renderer);
-
-
 				while (SDL_PollEvent(&event)) {
 					if (event.type == SDL_QUIT) {
 						done = SDL_TRUE;

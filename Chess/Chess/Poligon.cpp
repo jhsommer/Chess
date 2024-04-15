@@ -1,38 +1,28 @@
 #include "Poligon.h"
+#include <iostream>
 
 
 
-Poligon::Poligon(const std::vector<CVector2>& _points, const float& _color) {
-	m_Points = _points;
-	m_Color = _color;
+Poligon::Poligon(const std::vector<CVector2>& _points, const int& _color) :
+	m_Points(_points),
+	m_Color(_color)
+{}
+
+void Poligon::RenderLine(SDL_Renderer* _ren) const
+{
+	SDL_SetRenderDrawColor(_ren, m_Color, m_Color, m_Color, SDL_ALPHA_OPAQUE);
+	for (int i = 1; i < m_Points.size(); i++) {
+		SDL_RenderDrawLine(_ren, (int)m_Points[i - 1].x, (int)m_Points[i - 1].y, (int)m_Points[i].x, (int)m_Points[i ].y);
+	}
+	SDL_RenderDrawLine(_ren, (int)m_Points[m_Points.size()-1].x, (int)m_Points[m_Points.size() - 1].y, (int)m_Points[0].x, (int)m_Points[0].y);
+
 }
 
-void Poligon::Update()
+void Poligon::RenderRect(SDL_Renderer* _ren) const
 {
-	
-}
-
-void Poligon::RenderLine(SDL_Renderer& _ren) const
-{
-	for (int i = 0; i < m_Points.size(); i++) {
-		SDL_RenderDrawLine(&_ren, (int)m_Points[i - 1].x, (int)m_Points[i - 1].y, (int)m_Points[i].x, (int)m_Points[i ].y);
+	if (m_Points.size() > 3) {
+		SDL_Rect rect = { m_Points[0].x,m_Points[0].y,m_Points[2].x - m_Points[0].x , m_Points[2].y - m_Points[0].y };
+		SDL_SetRenderDrawColor(_ren, m_Color, m_Color, m_Color, SDL_ALPHA_OPAQUE);
+		SDL_RenderFillRect(_ren, &rect);
 	}
-}
-
-void Poligon::RenderArea(SDL_Renderer* _ren) const
-{
-
-	std::vector<SDL_Vertex> VertexPoints;
-	for (int i = 0; i < m_Points.size(); i++) {
-		SDL_Vertex vertex = { {m_Points[i].x,m_Points[i].y},{m_Color},{1,1}};
-		VertexPoints.assign(i,vertex);
-	}
-	std::vector<int> indexList;
-	for (int i = 0; i < m_Points.size(); i++) {
-		if (i%3) {
-			i = i - 1;
-		}
-		indexList.assign(indexList.size(), i);
-	}
-	SDL_RenderGeometry(_ren, NULL ,VertexPoints.data(), (int)VertexPoints.size(), NULL, 0);
 }
